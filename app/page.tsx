@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Download, HelpCircle, VrHand, Cpu } from "lucide-react";
+import { Download, HelpCircle } from "lucide-react";
 
 const FeatureCard = ({ title, description, reverse = false }: { title: string; description: string; reverse?: boolean }) => (
   <div className={`flex flex-col md:flex-row items-center gap-8 py-16 ${reverse ? "md:flex-row-reverse" : ""}`}>
